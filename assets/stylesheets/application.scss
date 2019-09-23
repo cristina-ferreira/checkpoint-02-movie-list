@@ -1,0 +1,26 @@
+
+body {
+  --card-shadow: 0 10px 6px -6px #777;
+  --white: white;
+  --light-gray: rgb(206, 206, 206);
+  font-family: Helvetica;
+}
+
+
+#root {
+  min-height: 100vh;
+  background-color: var(--light-gray);
+  padding-left: 200px;
+}
+
+.title {
+  color: brown;
+}
+
+.movie {
+  margin-top: 40px;
+}
+
+.legend {
+  color: brown;
+}
